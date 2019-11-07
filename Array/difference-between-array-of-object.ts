@@ -7,7 +7,7 @@ export abstract class ArrayDiff {
     let fishes: Array<Fish> = [
       new Fish("Dori"),
       new Fish("Marin"),
-      new Fish("Pierre")
+      new Fish("Némo")
     ];
 
     let pets: Array<Dog | Fish> = [...dogs, ...fishes];
